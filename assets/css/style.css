@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  /* margin: 0 10rem; */
+  background: #fab95b;
+}
+
+/* Navbar */
+#navbar {
+  margin: 0 10rem;
+  display: flex;
+  justify-content: space-between;
+  /* background: #fab95b; */
+  font-size: 1rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+}
+
+.logo,
+.menu-link {
+  padding: 20px 30px;
+}
+
+.menu .menu-link a,
+.logo a {
+  color: black;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
