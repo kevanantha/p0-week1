@@ -12,12 +12,32 @@ body {
   margin: 0 15rem;
 }
 
+p {
+  color: #fff;
+}
+
+.text-green {
+  color: #71a0a5;
+}
+
+.text-white {
+  color: #fff;
+}
+
+h1 {
+  font-size: 3.25rem;
+}
+
 .ml-1 {
   margin-left: 1rem;
 }
 
 .ml-2 {
   margin-left: 2rem;
+}
+
+.mt-3 {
+  margin-top: 3rem;
 }
 
 /* Navbar */
@@ -48,14 +68,19 @@ body {
 
 .menu-link a,
 .logo a {
-  color: #212121;
+  color: #71a0a5;
   text-decoration: none;
+}
+
+.menu-link a:hover {
+  color: #fff;
+  transition: all 0.3s ease 0s;
 }
 
 .btn {
   width: 100px;
   height: 40px;
-  color: #000;
+  color: #71a0a5;
   background-color: #fff;
   border: none;
   border-radius: 50px;
@@ -71,14 +96,41 @@ body {
 /* Header */
 #header {
   background: #fab95b;
-  height: 550px;
+  height: 650px;
   width: 100%;
-  /* margin: 0 10rem; */
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+img {
+  position: absolute;
+  right: 15rem;
+  top: 12rem;
+}
+
+.header {
+  position: absolute;
+  left: 15rem;
+}
+
 .rocket {
-  width: 35%;
+  width: 40%;
+}
+
+.btn-get-started {
+  width: 220px;
+  height: 60px;
+  color: #71a0a5;
+  background-color: #fff;
+  border: none;
+  font-size: 1.25rem;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.btn-get-started:hover {
+  background-color: #71a0a5;
+  transition: all 0.3s ease 0s;
+  color: #fff;
 }
