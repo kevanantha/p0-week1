@@ -224,7 +224,16 @@ img {
 /* Pricing */
 .pricing {
   height: 550px;
-  /* background: #fab95b; */
+  background: #fab95b;
+}
+
+.table {
+  margin: 0 auto;
+}
+
+th,
+td {
+  padding: 15px 30px;
 }
 
 /* Contact */
