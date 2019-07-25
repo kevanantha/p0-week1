@@ -63,21 +63,6 @@ h1 {
   padding: 30px 30px;
 }
 
-.menu-sign {
-  padding: 10px 15px;
-}
-
-.menu-link a,
-.logo a {
-  color: #71a0a5;
-  text-decoration: none;
-}
-
-.menu-link a:hover {
-  color: #fff;
-  transition: all 0.3s ease 0s;
-}
-
 .btn {
   width: 100px;
   height: 40px;
@@ -92,6 +77,26 @@ h1 {
   background-color: #71a0a5;
   transition: all 0.3s ease 0s;
   color: #fff;
+}
+
+.menu-sign {
+  padding: 10px 15px;
+}
+
+.menu-sign a {
+  padding: 10px 35px;
+  text-decoration: none;
+}
+
+.menu-link a,
+.logo a {
+  color: #71a0a5;
+  text-decoration: none;
+}
+
+.menu-link a:hover {
+  color: #fff;
+  transition: all 0.3s ease 0s;
 }
 
 /* Header */
@@ -151,7 +156,7 @@ img {
   right: 70%;
 }
 
-.textbox{
+.textbox {
   width: 30%;
   border-color: #fff;
   border-width: 5pt;
