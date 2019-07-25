@@ -26,7 +26,7 @@ p,
 }
 
 h1 {
-  font-size: 3.25rem;
+  font-size: 3.5rem;
 }
 
 h2 {
@@ -106,7 +106,7 @@ h2 {
 /* Header */
 #header {
   background: #fab95b;
-  height: 650px;
+  height: 800px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -116,17 +116,18 @@ h2 {
 img {
   width: 100%;
   position: absolute;
-  right: 15rem;
+  right: 10rem;
   top: 12rem;
 }
 
 .header {
   position: absolute;
-  left: 15rem;
+  left: 14rem;
+  top: 18rem;
 }
 
 .rocket {
-  width: 40%;
+  width: 50%;
 }
 
 .btn-get-started {
