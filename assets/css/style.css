@@ -28,6 +28,10 @@ h1 {
   font-size: 3.25rem;
 }
 
+h2 {
+  font-size: 2.25rem;
+}
+
 .ml-1 {
   margin-left: 1rem;
 }
@@ -64,6 +68,11 @@ h1 {
 
 .menu-sign {
   padding: 10px 15px;
+}
+
+.menu-sign a {
+  padding: 10px 35px;
+  text-decoration: none;
 }
 
 .menu-link a,
@@ -104,6 +113,7 @@ h1 {
 }
 
 img {
+  width: 100%;
   position: absolute;
   right: 15rem;
   top: 12rem;
@@ -133,4 +143,92 @@ img {
   background-color: #71a0a5;
   transition: all 0.3s ease 0s;
   color: #fff;
+}
+
+/* New */
+#new {
+  margin-top: 5rem;
+}
+
+.new {
+  height: 650px;
+  background: #fff;
+}
+
+.new-items {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.card-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  min-height: 400px;
+  width: 300px;
+  margin: 0 2rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.card-text {
+  margin-bottom: 4rem;
+}
+
+.card-text p {
+  color: #000;
+}
+
+.card-image {
+  width: 100%;
+  height: 210px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-image img {
+  width: 100%;
+  max-width: inherit;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) scale(1.5);
+  -moz-transform: translate(-50%, -50%) scale(1.5);
+  -o-transform: translate(-50%, -50%) scale(1.5);
+  transform: translate(-50%, -50%) scale(1.5);
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+.card-button a {
+  padding: 7px 15px;
+  text-decoration: none;
+}
+
+.card-btn {
+  color: #71a0a5;
+  border: 1px solid #71a0a5;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.card-btn:hover {
+  background-color: #71a0a5;
+  transition: all 0.3s ease 0s;
+  color: #fff;
+}
+
+/* Pricing */
+.pricing {
+  height: 550px;
+  /* background: #fab95b; */
+}
+
+/* Contact */
+.contact {
+  height: 550px;
+  background: #71a0a5;
 }
