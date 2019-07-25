@@ -8,16 +8,136 @@
     <link rel="stylesheet" href="assets/css/form.css" />
     <link rel="icon" type="image/png" href="assets/images/favicon.ico" />
     <title>PWHosting Form</title>
+
+    <nav id="navbar">
+      <div class="container navbar">
+        <div class="logo">
+          <a href="index.html">
+            <h2 class="text-white">PW<span class="text-green">Hosting</span></h2>
+          </a>
+        </div>
+        <div class="menu">
+          <div class="menu-link">
+            <a href="about.html">About</a>
+          </div>
+          <div class="menu-link">
+            <a href="contact.html">Contact</a>
+          </div>
+          <div class="menu-sign ml-1">
+            <a class="btn" href="form.html">
+              Sign Up
+            </a>
+          </div>
+          <div class="menu-sign">
+            <a class="btn" href="form.html">
+              Sign In
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <style>
+    .container {
+  margin: 0 15rem;
+}
+
+p,
+.text-white {
+  color: #fff;
+}
+
+.text-green {
+  color: #71a0a5;
+}
+
+.text-black {
+  color: #212121;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
+
+.ml-1 {
+  margin-left: 1rem;
+}
+
+.ml-2 {
+  margin-left: 2rem;
+}
+
+.mt-3 {
+  margin-top: 3rem;
+}
+
+/* Navbar */
+#navbar {
+  background: #fab95b;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+.logo,
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.logo,
+.menu-link {
+  padding: 30px 30px;
+}
+
+.menu-sign {
+  padding: 10px 15px;
+}
+
+.menu-sign a {
+  padding: 10px 35px;
+  text-decoration: none;
+}
+
+.menu-link a,
+.logo a {
+  color: #71a0a5;
+  text-decoration: none;
+}
+
+.menu-link a:hover {
+  color: #fff;
+  transition: all 0.3s ease 0s;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  color: #71a0a5;
+  background-color: #fff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #71a0a5;
+  transition: all 0.3s ease 0s;
+  color: #fff;
+    </style>
   </head>
+
 <body>
   <style>
     body {
       background: #fab95b;
-      background-image:url('assets/images/rocket.svg');
-      background-size: 70%;
-      background-repeat: no-repeat;
-      background-position: 400px 400px;
-    }
   </style>
   <div>
     <div>
@@ -67,7 +187,7 @@
                 <input type="checkbox" id="checkbox">Keep me logged in
               </div><br><br>
               <button class="button" type="button">Sign Up</button>
-
+              <hr><br><br>
             </form>
           </div>
         </div>
