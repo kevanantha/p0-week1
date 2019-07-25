@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
+  background-color: #fab95b;
 }
 
 .container {
@@ -133,4 +134,26 @@ img {
   background-color: #71a0a5;
   transition: all 0.3s ease 0s;
   color: #fff;
+}
+
+/* Contact Us */
+.contact {
+  background: #fab95b;
+  width: 100%;
+  height: 100vh;
+  left: 200px;
+  display: inline-block;
+  position: relative;
+}
+
+.address {
+  text-align: left;
+  right: 70%;
+}
+
+.textbox{
+  width: 30%;
+  border-color: #fff;
+  border-width: 5pt;
+  left: 50px;
 }
