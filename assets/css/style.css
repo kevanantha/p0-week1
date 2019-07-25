@@ -66,6 +66,11 @@ h1 {
   padding: 10px 15px;
 }
 
+.menu-sign a {
+  padding: 10px 35px;
+  text-decoration: none;
+}
+
 .menu-link a,
 .logo a {
   color: #71a0a5;
@@ -133,4 +138,22 @@ img {
   background-color: #71a0a5;
   transition: all 0.3s ease 0s;
   color: #fff;
+}
+
+/* About */
+.about {
+  height: 550px;
+  background: #71a0a5;
+}
+
+/* Services */
+.services {
+  height: 550px;
+  background: #fab95b;
+}
+
+/* Contact */
+.contact {
+  height: 550px;
+  background: #71a0a5;
 }
