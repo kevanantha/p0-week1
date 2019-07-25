@@ -28,6 +28,10 @@ h1 {
   font-size: 3.25rem;
 }
 
+h2 {
+  font-size: 2.25rem;
+}
+
 .ml-1 {
   margin-left: 1rem;
 }
@@ -109,6 +113,7 @@ h1 {
 }
 
 img {
+  width: 100%;
   position: absolute;
   right: 15rem;
   top: 12rem;
@@ -140,10 +145,58 @@ img {
   color: #fff;
 }
 
-/* About */
-.about {
+/* New */
+#new {
+  margin-top: 5rem;
+}
+
+.new {
   height: 550px;
-  background: #71a0a5;
+  background: #fff;
+}
+
+.new-items {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.card-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  min-height: 400px;
+  width: 300px;
+  margin: 0 2rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.card-text p {
+  color: #000;
+}
+
+.card-image {
+  width: 100%;
+  height: 210px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-image img {
+  width: 100%;
+  max-width: inherit;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) scale(1.5);
+  -moz-transform: translate(-50%, -50%) scale(1.5);
+  -o-transform: translate(-50%, -50%) scale(1.5);
+  transform: translate(-50%, -50%) scale(1.5);
+}
+
+.card-body {
+  padding: 2rem;
 }
 
 /* Services */
