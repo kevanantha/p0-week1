@@ -12,7 +12,8 @@ body {
   margin: 0 15rem;
 }
 
-p {
+p,
+.text-white {
   color: #fff;
 }
 
@@ -20,8 +21,8 @@ p {
   color: #71a0a5;
 }
 
-.text-white {
-  color: #fff;
+.text-black {
+  color: #212121;
 }
 
 h1 {
@@ -147,7 +148,7 @@ img {
 
 /* New */
 #new {
-  margin-top: 5rem;
+  margin-top: 10rem;
 }
 
 .new {
@@ -167,7 +168,7 @@ img {
 
 .card {
   min-height: 400px;
-  width: 300px;
+  width: 350px;
   margin: 0 2rem;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
@@ -177,7 +178,8 @@ img {
 }
 
 .card-text p {
-  color: #000;
+  color: #212121;
+  font-size: 1.25rem;
 }
 
 .card-image {
@@ -222,12 +224,16 @@ img {
 }
 
 /* Pricing */
+#pricing {
+  margin-top: 10rem;
+}
+
 .pricing {
-  height: 550px;
+  height: 800px;
 }
 
 .table {
-  margin: 0 auto;
+  margin: 5rem auto 0;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   border: none;
   border-collapse: collapse;
@@ -246,8 +252,48 @@ thead {
   background: #fab95b;
 }
 
-/* Contact */
-.contact {
-  height: 550px;
-  background: #71a0a5;
+td a {
+  color: #212121;
+}
+
+td a:hover {
+  color: #fab95b;
+  transition: all 0.3s ease 0s;
+}
+
+/* Footer */
+footer {
+  height: auto;
+  background: #fab95b;
+  text-align: center;
+}
+
+footer .footer {
+  padding: 1rem;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltip-text {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
 }
