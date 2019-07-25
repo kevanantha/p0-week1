@@ -151,7 +151,7 @@ img {
 }
 
 .new {
-  height: 550px;
+  height: 650px;
   background: #fff;
 }
 
@@ -170,6 +170,10 @@ img {
   width: 300px;
   margin: 0 2rem;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.card-text {
+  margin-bottom: 4rem;
 }
 
 .card-text p {
@@ -199,10 +203,28 @@ img {
   padding: 2rem;
 }
 
-/* Services */
-.services {
+.card-button a {
+  padding: 7px 15px;
+  text-decoration: none;
+}
+
+.card-btn {
+  color: #71a0a5;
+  border: 1px solid #71a0a5;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.card-btn:hover {
+  background-color: #71a0a5;
+  transition: all 0.3s ease 0s;
+  color: #fff;
+}
+
+/* Pricing */
+.pricing {
   height: 550px;
-  background: #fab95b;
+  /* background: #fab95b; */
 }
 
 /* Contact */
